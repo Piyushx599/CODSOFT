@@ -8,6 +8,7 @@ Each task showcases end-to-end implementation — from data preprocessing and fe
 ## 📚 Table of Contents
 - [Task 1 – Titanic Survival Prediction](#-task-1--titanic-survival-prediction)
 - [Task 2 – Movie Rating Prediction](#-task-2--movie-rating-prediction)
+- [Task 3 – Credit Card Fraud Detection](#-task-3--credit-card-fraud-detection)
 - [Technologies Used](#-technologies-used)
 - [Author](#-author)
 
@@ -36,6 +37,19 @@ Each task showcases end-to-end implementation — from data preprocessing and fe
 
 ---
 
+## 💳 Task 3 – Credit Card Fraud Detection
+**Goal:** Identify fraudulent credit-card transactions using classification models on highly imbalanced data.  
+**Highlights:**
+- Conducted **EDA** to analyze transaction patterns and class imbalance  
+- Implemented **data preprocessing** with scaling and **SMOTE** oversampling  
+- Compared models: Logistic Regression, Random Forest, XGBoost, and Isolation Forest  
+- Optimized thresholds for higher **recall** on fraudulent transactions  
+- Achieved **ROC-AUC ≈ 0.96** (best model: XGBoost)  
+**Tech Used:** Python, Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn  
+📁 [View Task 3 Folder](./Task3_CreditCard_Fraud_Detection)
+
+---
+
 ## 🧠 Technologies Used
 - **Languages:** Python  
 - **Libraries:** Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn  
@@ -45,6 +59,7 @@ Each task showcases end-to-end implementation — from data preprocessing and fe
 ---
 
 ## 📦 Folder Structure
+
 CODSOFT/
 │
 ├── Task1_Titanic_Survival_Prediction/
@@ -60,7 +75,14 @@ CODSOFT/
 │ ├── cleaned_imdb.csv
 │ └── requirements.txt
 │
+├── Task3_CreditCard_Fraud_Detection/
+│ ├── CreditCard_Fraud_Detection.ipynb
+│ ├── creditcard.csv (tracked with Git LFS)
+│ ├── requirements.txt
+│ └── README.md
+│
 └── README.md
+
 
 
 ---
@@ -74,3 +96,4 @@ CODSOFT/
 ---
 
 ⭐ *This repository demonstrates end-to-end ML project execution with clean code, model explainability, and deployment skills.*
+
